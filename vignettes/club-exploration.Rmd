@@ -1,0 +1,48 @@
+---
+title: "Club data exploration"
+author: "Gabrielle Devaux"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+setwd("~/MISSIONS/Shiny_demo/fifa2019demo")
+```
+
+
+
+```{r}
+club_coord <- read.csv("www/data/club_coordinates.csv",
+                       stringsAsFactors = FALSE,
+                       encoding = 'UTF-8')
+
+
+length(unique(fifa2019_raw$Club))
+
+sum(unique(fifa2019_raw$Club) %in% club_coord$clubLabel)
+
+```
+
+
+```{r}
+
+setwd("~/MISSIONS/Shiny_demo/fifa2019demo")
+fifa2019_raw <- read.csv("",
+                         stringsAsFactors = FALSE,
+                         sep = ",",
+                         header = TRUE,
+                         quote = "\"")
+```
+
+
+
+

@@ -1,0 +1,95 @@
+/* body
+.content-wrapper, .right-side {
+background-color: #ffffff;
+}
+ */
+
+/* loading spinner*/
+#loadmessage {
+  position: fixed;
+  z-index:8;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  background-color: #CCFF66;
+}
+.loader {
+  position: fixed;
+  z-index:8; /*put the loader on first plan*/
+  border: 16px solid #999999; /* Light grey */
+  border-top: 16px solid #8B0000; /* red velvet */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  top:45%;
+  left:45%;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.row{
+  margin-right:0px;
+  margin-left:0px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#general_tabset{
+  background-color: #f2f2f2;
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+  font-weight: bold;
+}
+
+
+.content{
+  padding:0px;
+}
+
+#carto-main_map{
+	height: calc(100vh - 170px) !important;
+}
+
+.radio-inline{
+  margin-left:10px;
+}
+
+/* replace by specific radio button id
+.shiny-options-group {
+  height: auto;
+  width: auto;
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */ /*
+  -moz-column-count: 2;    /* Firefox */ /*
+  column-count: 2;
+  -webkit-column-fill: balance;
+  -moz-column-fill: balance;
+  column-fill: balance;
+  margin-top: 0px;
+}
+
+*/
+
+.control-label {
+  padding-bottom: 10px;
+}
+
+/*
+div.radio {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+*/
+
+

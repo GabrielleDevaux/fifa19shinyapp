@@ -1,0 +1,35 @@
+Package: fifa2019demo
+Title: Shiny app demo on fifa2019 kaggle dataset
+Version: 0.0.0.9100
+Authors@R: person("Gabrielle", "Devaux", email = "gabrielle.devaux@orange.fr", role = c("aut", "cre"))
+Description: Shiny app for visualization of fifa2019 kaggle dataset. Main purpose is to train Shiny and R skills.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+Imports: 
+    stats,
+    magrittr,
+    shiny,
+    dplyr,
+    shinydashboard,
+    fmsb,
+    plotly,
+    graphics,
+    grDevices,
+    leaflet,
+    shinyWidgets,
+    DT,
+    randomForest,
+    caret,
+    rgdal,
+    ggplot2,
+    shinymaterial,
+    wordcloud2,
+    wordcloud,
+    RColorBrewer

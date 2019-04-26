@@ -1,0 +1,33 @@
+---
+title: "How to use fifa2019demo"
+author: "Gabrielle Devaux"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+library(fifa2019demo)
+```
+
+## Moyenne
+
+Fonction qui prend en paramètre un vecteur de numérique et renvoit sa moyenne.
+
+```{r}
+library(magrittr)
+moyenne <- function(x){
+  x <- x %>% na.omit()
+  sum(x)/length(x)
+}
+
+moyenne(c(4,2,3,4,NA))
+```
+
