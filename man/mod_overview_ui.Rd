@@ -10,7 +10,7 @@ mod_overview_ui(id)
 mod_overview_server(input, output, session, fifa19_raw, fifa19_simple)
 }
 \arguments{
-\item{id}{id}
+\item{id}{shiny id}
 
 \item{input}{internal}
 
@@ -18,12 +18,10 @@ mod_overview_server(input, output, session, fifa19_raw, fifa19_simple)
 
 \item{session}{internal}
 
-\item{fifa19_raw}{data}
+\item{fifa19_raw}{dataset with all skill attributes}
 
-\item{fifa19_simple}{data}
+\item{fifa19_simple}{dataset with simplified skill attributes}
 }
 \description{
-mod_overview_ui and mod_overview_server
-
-mod_overview_server
+Shiny module for fifa2019 dataset quick view and basic statistics
 }

@@ -1,7 +1,9 @@
 #' mod_random_forest_ui and mod_random_forest_server
 #'
+#' Shiny module to compute a random forest modele on the dataset
+#'
 #' @param id shiny id
-#' @param fifa19_raw fifa19
+#' @param fifa19_raw dataset selected
 #'
 #' @import shiny
 #' @import shinydashboard
@@ -73,8 +75,8 @@ mod_random_forest_ui <- function(id, fifa19_raw) {
 #' @param input internal
 #' @param output internal
 #' @param session internal
-#' @param data_complete complete data
-#' @param ratio_train ratio
+#' @param data_complete selected dataset
+#' @param ratio_train ratio to use for training the model
 #'
 #' @importFrom caret confusionMatrix
 #' @importFrom randomForest randomForest varImpPlot

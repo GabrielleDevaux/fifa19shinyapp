@@ -1,7 +1,7 @@
 
 #' mod_radarchart_ui and mod_radarchart_server
 #'
-#' mod_radarchart_ui and mod_radarchart_server zzz
+#' Shiny module to make and display a radarchart
 #'
 #' @param id shiny id
 #'
@@ -25,9 +25,9 @@ mod_radarchart_ui <- function(id) {
 #' @param input internal
 #' @param output internal
 #' @param session internal
-#' @param joueur data frame of 1 line
+#' @param joueur data frame of 1 line containing the current selected player line
 #' @param vector_of_skills list of 2 elements : title and features
-#' @param data data
+#' @param data data to display with the radarchart
 #'
 #' @import magrittr
 #' @import dplyr

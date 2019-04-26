@@ -1,6 +1,6 @@
-
-
 #' app_server
+#'
+#' Server of the application
 #'
 #' @param input internal
 #' @param output internal

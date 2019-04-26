@@ -1,6 +1,8 @@
 
 #' run_app
 #'
+#' Run the shiny app
+#'
 #' @import shiny
 #'
 #' @export

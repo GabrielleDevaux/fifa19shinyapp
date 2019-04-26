@@ -9,7 +9,7 @@ mod_filtre_joueur_ui(id, fifa2019)
 \arguments{
 \item{id}{shiny id}
 
-\item{fifa2019}{fifa 2019 dataframe}
+\item{fifa2019}{dataset fifa2019}
 }
 \description{
 mod_filtre_joueur_ui and mod_filtre_joueur_server

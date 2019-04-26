@@ -1,9 +1,11 @@
 #' mod_explo_ui and mod_explo_server
 #'
+#' Shiny module to display and explore the complete dataset
+#'
 #' @param id shiny id
 #'
 #' @import shiny
-#' @¶import shinydashboard
+#' @import shinydashboard
 mod_explo_ui <- function(id) {
   ns <- NS(id)
 

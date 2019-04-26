@@ -1,4 +1,6 @@
-#' mod_cluster_ui
+#' mod_cluster_ui and mod_cluster_server
+#'
+#' UI and server of the Shiny module to make classification with the fifa19 dataset
 #'
 #' @param id shiny id
 #'
@@ -89,8 +91,8 @@ mod_cluster_ui <- function(id, fifa19_raw) {
 #' @param input internal
 #' @param output interlan
 #' @param session internal
-#' @param fifa19_raw raw
-#' @param fifa19_simple simple
+#' @param fifa19_raw dataset with all skill attributes
+#' @param fifa19_simple dataset with simplified skill attributes
 #'
 #' @import dplyr
 #' @import shiny

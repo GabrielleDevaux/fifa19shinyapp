@@ -1,6 +1,8 @@
 #' mod_overview_ui and mod_overview_server
 #'
-#' @param id id
+#' Shiny module for fifa2019 dataset quick view and basic statistics
+#'
+#' @param id shiny id
 #'
 #' @import shiny
 #' @import shinydashboard
@@ -102,8 +104,8 @@ mod_overview_ui <- function(id) {
 #' @param input internal
 #' @param output internal
 #' @param session internal
-#' @param fifa19_raw data
-#' @param fifa19_simple data
+#' @param fifa19_raw dataset with all skill attributes
+#' @param fifa19_simple dataset with simplified skill attributes
 #'
 #' @import shiny
 #' @import ggplot2

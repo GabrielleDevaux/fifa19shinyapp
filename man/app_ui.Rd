@@ -7,5 +7,5 @@
 app_ui()
 }
 \description{
-app_ui
+UI of the application
 }

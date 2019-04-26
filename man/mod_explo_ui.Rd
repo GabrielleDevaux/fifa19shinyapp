@@ -19,7 +19,5 @@ mod_explo_server(input, output, session)
 \item{session}{internal}
 }
 \description{
-mod_explo_ui and mod_explo_server
-
-mod_explo_server
+Shiny module to display and explore the complete dataset
 }

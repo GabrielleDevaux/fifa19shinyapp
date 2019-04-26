@@ -14,5 +14,5 @@ app_server(input, output, session)
 \item{session}{internal}
 }
 \description{
-app_server
+Server of the application
 }

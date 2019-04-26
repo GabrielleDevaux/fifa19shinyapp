@@ -4,14 +4,14 @@
 \alias{mod_filtre_joueur_server}
 \title{mod_filtre_joueur_server}
 \usage{
-mod_filtre_joueur_server(input, output, sessions)
+mod_filtre_joueur_server(input, output, session)
 }
 \arguments{
 \item{input}{internal}
 
 \item{output}{internal}
 
-\item{sessions}{internal}
+\item{session}{internal}
 }
 \description{
 mod_filtre_joueur_server

@@ -1,7 +1,6 @@
-
-
-
 #' app_ui
+#'
+#' UI of the application
 #'
 #' @import shiny
 #' @import shinydashboard

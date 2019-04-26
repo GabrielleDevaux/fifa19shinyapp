@@ -13,7 +13,7 @@ mod_random_forest_server(input, output, session, data_complete,
 \arguments{
 \item{id}{shiny id}
 
-\item{fifa19_raw}{fifa19}
+\item{fifa19_raw}{dataset selected}
 
 \item{input}{internal}
 
@@ -21,12 +21,10 @@ mod_random_forest_server(input, output, session, data_complete,
 
 \item{session}{internal}
 
-\item{data_complete}{complete data}
+\item{data_complete}{selected dataset}
 
-\item{ratio_train}{ratio}
+\item{ratio_train}{ratio to use for training the model}
 }
 \description{
-mod_random_forest_ui and mod_random_forest_server
-
-mod_random_forest_server
+Shiny module to compute a random forest modele on the dataset
 }

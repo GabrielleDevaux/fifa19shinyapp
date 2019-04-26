@@ -1,3 +1,4 @@
+# testing script from https://rtask.thinkr.fr/fr/notre-template-shiny-pour-concevoir-une-appli-prod-ready/
 .rs.api.documentSaveAll() # close and save all opened files
 suppressWarnings(lapply(
   paste('package:', names(sessionInfo()$otherPkgs), sep = ""),

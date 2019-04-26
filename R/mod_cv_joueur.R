@@ -151,8 +151,8 @@ mod_cv_joueur_ui <- function(id, fifa19) {
 #' @param input internal
 #' @param output internal
 #' @param session internal
-#' @param fifa19 fifa 2019 dataframe
-#' @param fifa19_simple simplified df
+#' @param fifa19 dataset with all skill attributes
+#' @param fifa19_simple dataset with simplified skill attributes
 #' @param filtre_inputs inputs from mod_filtre_joueur module
 #'
 #' @import magrittr

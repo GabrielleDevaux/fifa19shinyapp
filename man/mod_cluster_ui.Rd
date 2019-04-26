@@ -3,7 +3,7 @@
 \name{mod_cluster_ui}
 \alias{mod_cluster_ui}
 \alias{mod_cluster_server}
-\title{mod_cluster_ui}
+\title{mod_cluster_ui and mod_cluster_server}
 \usage{
 mod_cluster_ui(id, fifa19_raw)
 
@@ -12,7 +12,7 @@ mod_cluster_server(input, output, session, fifa19_raw, fifa19_simple)
 \arguments{
 \item{id}{shiny id}
 
-\item{fifa19_raw}{raw}
+\item{fifa19_raw}{dataset with all skill attributes}
 
 \item{input}{internal}
 
@@ -20,10 +20,8 @@ mod_cluster_server(input, output, session, fifa19_raw, fifa19_simple)
 
 \item{session}{internal}
 
-\item{fifa19_simple}{simple}
+\item{fifa19_simple}{dataset with simplified skill attributes}
 }
 \description{
-mod_cluster_ui
-
-mod_cluster_server
+UI and server of the Shiny module to make classification with the fifa19 dataset
 }

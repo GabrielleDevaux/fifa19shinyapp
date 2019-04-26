@@ -1,7 +1,7 @@
 #' mod_filtre_joueur_ui and mod_filtre_joueur_server
 #'
 #' @param id shiny id
-#' @param fifa2019 fifa 2019 dataframe
+#' @param fifa2019 dataset fifa2019
 #'
 #' @import shiny
 #' @import shinydashboard
@@ -45,9 +45,9 @@ mod_filtre_joueur_ui <- function(id, fifa2019) {
 #'
 #' @param input internal
 #' @param output internal
-#' @param sessions internal
+#' @param session internal
 #'
 
-mod_filtre_joueur_server <- function(input, output, sessions) {
+mod_filtre_joueur_server <- function(input, output, session) {
   return(input)
 }

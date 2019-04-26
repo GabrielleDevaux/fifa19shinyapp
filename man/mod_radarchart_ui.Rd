@@ -19,12 +19,12 @@ mod_radarchart_server(input, output, session, joueur, vector_of_skills,
 
 \item{session}{internal}
 
-\item{joueur}{data frame of 1 line}
+\item{joueur}{data frame of 1 line containing the current selected player line}
 
 \item{vector_of_skills}{list of 2 elements : title and features}
 
-\item{data}{data}
+\item{data}{data to display with the radarchart}
 }
 \description{
-mod_radarchart_ui and mod_radarchart_server zzz
+Shiny module to make and display a radarchart
 }

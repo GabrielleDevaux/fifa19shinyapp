@@ -7,5 +7,5 @@
 run_app()
 }
 \description{
-run_app
+Run the shiny app
 }

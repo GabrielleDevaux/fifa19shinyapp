@@ -13,7 +13,7 @@ mod_cv_joueur_server(input, output, session, fifa19, fifa19_simple,
 \arguments{
 \item{id}{shiny id}
 
-\item{fifa19}{fifa 2019 dataframe}
+\item{fifa19}{dataset with all skill attributes}
 
 \item{input}{internal}
 
@@ -21,7 +21,7 @@ mod_cv_joueur_server(input, output, session, fifa19, fifa19_simple,
 
 \item{session}{internal}
 
-\item{fifa19_simple}{simplified df}
+\item{fifa19_simple}{dataset with simplified skill attributes}
 
 \item{filtre_inputs}{inputs from mod_filtre_joueur module}
 }
